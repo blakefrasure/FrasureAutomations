@@ -19,17 +19,9 @@ import { useVariables } from '@07ai/react/helpers/variable.context';
 import { useTrack } from '@07ai/react/helpers/use.track';
 import { TrackEnum } from '@07ai/nestjs-libraries/user/track.enum';
 import { FarcasterProvider } from '@07ai/frontend/components/auth/providers/farcaster.provider';
-import dynamic from 'next/dynamic';
-import { WalletUiProvider } from '@07ai/frontend/components/auth/providers/placeholder/wallet.ui.provider';
 import { useT } from '@07ai/react/translation/get.transation.service.client';
 import useCookie from 'react-use-cookie';
-const WalletProvider = dynamic(
-  () => import('@07ai/frontend/components/auth/providers/wallet.provider'),
-  {
-    ssr: false,
-    loading: () => <WalletUiProvider />,
-  }
-);
+
 type Inputs = {
   email: string;
   password: string;
@@ -169,7 +161,6 @@ export function RegisterAfter({
                     <GoogleProvider />
                   )}
                   {!!neynarClientId && <FarcasterProvider />}
-                  {billingEnabled && <WalletProvider />}
                 </div>
               ))}
             {!isAfterProvider && (
