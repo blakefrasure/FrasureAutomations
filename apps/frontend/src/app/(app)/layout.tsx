@@ -66,8 +66,8 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
           frontEndUrl={process.env.FRONTEND_URL!}
           isGeneral={!!process.env.IS_GENERAL}
           genericOauth={!!process.env['07ai_GENERIC_OAUTH']}
-          oauthLogoUrl={process.env.NEXT_PUBLIC_07ai_OAUTH_LOGO_URL!}
-          oauthDisplayName={process.env.NEXT_PUBLIC_07ai_OAUTH_DISPLAY_NAME!}
+          oauthLogoUrl={process.env['NEXT_PUBLIC_07ai_OAUTH_LOGO_URL']!}
+          oauthDisplayName={process.env['NEXT_PUBLIC_07ai_OAUTH_DISPLAY_NAME']!}
           uploadDirectory={process.env.NEXT_PUBLIC_UPLOAD_STATIC_DIRECTORY!}
           cloudflareUrl={process.env.CLOUDFLARE_BUCKET_URL || ''}
           mainUrl={process.env.MAIN_URL || ''}

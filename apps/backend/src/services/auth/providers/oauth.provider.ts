@@ -6,33 +6,31 @@ import {
 @AuthProvider({ provider: 'GENERIC' })
 export class OauthProvider extends AuthProviderAbstract {
   private getConfig() {
-    const {
-      07ai_OAUTH_AUTH_URL,
-      07ai_OAUTH_CLIENT_ID,
-      07ai_OAUTH_CLIENT_SECRET,
-      07ai_OAUTH_TOKEN_URL,
-      07ai_OAUTH_USERINFO_URL,
-      FRONTEND_URL,
-    } = process.env;
+    const authUrl = process.env['07ai_OAUTH_AUTH_URL'];
+    const clientId = process.env['07ai_OAUTH_CLIENT_ID'];
+    const clientSecret = process.env['07ai_OAUTH_CLIENT_SECRET'];
+    const tokenUrl = process.env['07ai_OAUTH_TOKEN_URL'];
+    const userInfoUrl = process.env['07ai_OAUTH_USERINFO_URL'];
+    const frontendUrl = process.env.FRONTEND_URL;
 
     if (
-      !07ai_OAUTH_USERINFO_URL ||
-      !07ai_OAUTH_TOKEN_URL ||
-      !07ai_OAUTH_CLIENT_ID ||
-      !07ai_OAUTH_CLIENT_SECRET ||
-      !07ai_OAUTH_AUTH_URL ||
-      !FRONTEND_URL
+      !userInfoUrl ||
+      !tokenUrl ||
+      !clientId ||
+      !clientSecret ||
+      !authUrl ||
+      !frontendUrl
     ) {
       throw new Error('07ai_OAUTH environment variables are not set');
     }
 
     return {
-      authUrl: 07ai_OAUTH_AUTH_URL,
-      clientId: 07ai_OAUTH_CLIENT_ID,
-      clientSecret: 07ai_OAUTH_CLIENT_SECRET,
-      tokenUrl: 07ai_OAUTH_TOKEN_URL,
-      userInfoUrl: 07ai_OAUTH_USERINFO_URL,
-      frontendUrl: FRONTEND_URL,
+      authUrl,
+      clientId,
+      clientSecret,
+      tokenUrl,
+      userInfoUrl,
+      frontendUrl,
     };
   }
 
