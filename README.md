@@ -1,145 +1,83 @@
 <p align="center">
-  <a href="https://07ai.com/" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/765e9d72-3ee7-4a56-9d59-a2c9befe2311">
-    <img alt="07ai Logo" src="https://github.com/user-attachments/assets/f0d30d70-dddb-4142-8876-e9aa6ed1cb99" width="280"/>
+    <img alt="07ai Logo" src="https://platform.07ai.com/logo.png" width="280"/>
   </picture>
-  </a>
 </p>
+
+<h1 align="center">07ai</h1>
 
 <p align="center">
-<a href="https://opensource.org/license/agpl-v3">
-  <img src="https://img.shields.io/badge/License-AGPL%203.0-blue.svg" alt="License">
-</a>
+  <strong>The Ultimate Independent AI Social Media Orchestrator</strong>
 </p>
 
-<h3 align="center"><strong><a href="https://github.com/07aihq/07ai-agent">NEW: check out 07ai agent CLI! perfect for OpenClaw and other agents</a></strong></h3>
 <div align="center">
-  <strong>
-  <h2>Your ultimate AI social media scheduling tool</h2><br />
-  <a href="https://07ai.com">07ai</a>: An alternative to: Buffer.com, Hypefury, Twitter Hunter, etc...<br /><br />
-  </strong>
-  07ai offers everything you need to manage your social media posts,<br />build an audience, capture leads, and grow your business.
+  07ai is a modern, high-performance platform for social media scheduling, automation, and analytics. Built for independence and privacy, it offers a radical new UI experience designed for professional creators.
 </div>
 
-<div class="flex" align="center">
-  <br />
-  <img alt="Instagram" src="https://07ai.com/svgs/socials/Instagram.svg" width="32">
-  <img alt="Youtube" src="https://07ai.com/svgs/socials/Youtube.svg" width="32">
-  <img alt="Dribbble" src="https://07ai.com/svgs/socials/Dribbble.svg" width="32">
-  <img alt="Linkedin" src="https://07ai.com/svgs/socials/Linkedin.svg" width="32">
-  <img alt="Reddit" src="https://07ai.com/svgs/socials/Reddit.svg" width="32">
-  <img alt="TikTok" src="https://07ai.com/svgs/socials/TikTok.svg" width="32">
-  <img alt="Facebook" src="https://07ai.com/svgs/socials/Facebook.svg" width="32">
-  <img alt="Pinterest" src="https://07ai.com/svgs/socials/Pinterest.svg" width="32">
-  <img alt="Threads" src="https://07ai.com/svgs/socials/Threads.svg" width="32">
-  <img alt="X" src="https://07ai.com/svgs/socials/X.svg" width="32">
-  <img alt="Slack" src="https://07ai.com/svgs/socials/Slack.svg" width="32">
-  <img alt="Discord" src="https://07ai.com/svgs/socials/Discord.svg" width="32">
-  <img alt="Mastodon" src="https://07ai.com/svgs/socials/Mastodon.svg" width="32">
-  <img alt="Bluesky" src="https://07ai.com/svgs/socials/Bluesky.svg" width="32">
+<br />
+
+<div align="center">
+  <a href="https://platform.07ai.com">Live Platform</a>
+  ·
+  <a href="https://docs.07ai.com">Documentation</a>
+  ·
+  <a href="https://github.com/blakefrasure/FrasureAutomations">GitHub Support</a>
 </div>
 
-<p align="center">
-  <br />
-  <a href="https://docs.07ai.com" rel="dofollow"><strong>Explore the docs »</strong></a>
-  <br />
+<br />
 
-  <br />
-  <a href="https://youtube.com/@07aiofficial" rel="dofollow"><strong>Watch the YouTube Tutorials»</strong></a>
-  <br />
-</p>
+---
 
-<p align="center">
-  <a href="https://platform.07ai.com">Register</a>
-  ·
-  <a href="https://discord.07ai.com">Join Our Discord (devs only)</a>
-  ·
-  <a href="https://docs.07ai.com/public-api">Public API</a><br />
-</p>
-<p align="center">
-  <a href="https://www.npmjs.com/package/@07ai/node">NodeJS SDK</a>
-  ·
-  <a href="https://www.npmjs.com/package/n8n-nodes-07ai">N8N custom node</a>
-  ·
-  <a href="https://apps.make.com/07ai">Make.com integration</a>
-</p>
+## ✨ Radical New Features
 
-<br /><br />
+- **Bento Island Architecture**: A revolutionary dashboard UI that organizes your data into glassmorphism islands for maximum focus.
+- **Deep Obsidian Theme**: A premium, dark-mode-first aesthetic designed for late-night productivity.
+- **Floating Bottom Dock**: Navigation that stays out of your way, centered and accessible.
+- **Full AI Integration**: Built-in support for advanced content generation and scheduling optimizations.
 
-## 🔌 See the leading 07ai features
+---
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=BdsCVvEYgHU" target="_blank">
-    <img alt="07ai" src="https://github.com/user-attachments/assets/8b9b7939-da1a-4be5-95be-42c6fce772de" />
-  </a>
-</p>
+## 🛠️ Tech Stack
 
-## ✨ Features
+- **Monorepo**: Pnpm workspaces
+- **Frontend**: Next.js 16.2.1 + Tailwind CSS
+- **Backend**: NestJS
+- **Database**: Prisma + PostgreSQL
+- **Orchestration**: Temporal
+- **Deployment**: Vercel & Docker optimized
 
-| ![Image 1](https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef) | ![Image 2](https://github.com/user-attachments/assets/eb5f5f15-ed90-47fc-811c-03ccba6fa8a2) |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| ![Image 3](https://github.com/user-attachments/assets/d51786ee-ddd8-4ef8-8138-5192e9cfe7c3) | ![Image 4](https://github.com/user-attachments/assets/91f83c89-22f6-43d6-b7aa-d2d3378289fb) |
+---
 
-### Our Sponsors
+## 🚀 Quick Start
 
-| Sponsor |                                  Logo                                   | Description     |
-|---------|:-----------------------------------------------------------------------:|-----------------|
-| [Hostinger](https://www.hostinger.com/vps/docker/07ai?ref=07ai) | <img src=".github/sponsors/hostinger.png" alt="Hostinger" width="500"/> | Hostinger is on a mission to make online success possible for anyone – from developers to aspiring bloggers and business owners |
-| [Virlo](https://dev.virlo.ai/?ref=07ai) | <img src="https://github.com/user-attachments/assets/25182598-5344-45fc-b9cd-e4cfa16aabfd" alt="Virlo" width="500"/> | Virlo is the #1 social media trend spotting and all-in-one GTM tool for teams leveraging short-form video |
+1. **Clone the Repo**:
+   ```bash
+   git clone https://github.com/blakefrasure/FrasureAutomations.git
+   ```
+2. **Install Dependencies**:
+   ```bash
+   pnpm install
+   ```
+3. **Database Setup**:
+   ```bash
+   pnpm run prisma-db-push
+   ```
+4. **Run Dev Environment**:
+   ```bash
+   pnpm run dev
+   ```
 
+---
 
+## 🔒 Security & Compliance
 
-# Intro
+- **OAuth Driven**: All social connections use official, platform-approved OAuth flows.
+- **Self-Hosted First**: Your data stays in your control.
+- **Private & Secure**: No proxying of API keys; direct authentication with social platforms.
 
-- Schedule all your social media posts (many AI features)
-- Measure your work with analytics.
-- Collaborate with other team members to exchange or buy posts.
-- Invite your team members to collaborate, comment, and schedule posts.
-- At the moment there is no difference between the hosted version to the self-hosted version
-- Perfect for automation (API) with platforms like N8N, Make.com, Zapier, etc.
+---
 
-## Tech Stack
+## 📄 License
 
-- Pnpm workspaces (Monorepo)
-- NextJS (React)
-- NestJS
-- Prisma (Default to PostgreSQL)
-- Temporal
-- Resend (email notifications)
+This repository is licensed under the [AGPL-3.0 license](LICENSE).
 
-## Quick Start
-
-To have the project up and running, please follow the [Quick Start Guide](https://docs.07ai.com/quickstart)
-
-## Sponsor 07ai
-
-We now give a few options to Sponsor 07ai:
-- Just a donation: You like what we are building, and want to buy us some coffees so we can build faster.
-- Main Repository: Get your logo with a backlink from the main 07ai repository. 07ai has almost 3m downloads and 20k views per month.
-- Main Repository + Website: Get your logo on the central repository and the main website. Here are some metrics: - Website has 20k hits per month + 65 DR (strong backlink) - Repository has 20k hits per month + Almost 3m docker downloads.
-
-Link: https://opencollective.com/07ai
-
-## 07ai Compliance
-
-- 07ai is an open-source, self-hosted social media scheduling tool that supports platforms like X (formerly Twitter), Bluesky, Mastodon, Discord, and others.
-- 07ai hosted service uses official, platform-approved OAuth flows.
-- 07ai does not automate or scrape content from social media platforms.
-- 07ai does not collect, store, or proxy API keys or access tokens from users.
-- 07ai never ask users to paste API keys into our hosted product.
-- 07ai Users always authenticate directly with the social platform (e.g., X, Discord, etc.), ensuring platform compliance and data privacy.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=07aihq/07ai-app&type=date&legend=top-left)](https://www.star-history.com/#07aihq/07ai-app&type=date&legend=top-left)
-
-## License
-
-This repository's source code is available under the [AGPL-3.0 license](LICENSE).
-
-<br /><br /><br />
-
-<p align="center">
-  <a href="https://www.g2.com/products/07ai/take_survey" target="blank"><img alt="g2" src="https://github.com/user-attachments/assets/892cb74c-0b49-4589-b2f5-fbdbf7a98f66" /></a>
-</p>
